@@ -1,5 +1,7 @@
 # BitEdit - MonetizationVars Editor
 
+BY @S0methingSomething on github
+
 A web-based editor for viewing, modifying, and patching MonetizationVars files for BitLife.
 
 [![Live Application](https://img.shields.io/badge/🌐_Live_App-Available-brightgreen)](https://s0methingsomething.github.io/BitEdit/)
