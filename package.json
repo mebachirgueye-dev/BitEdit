@@ -1,0 +1,28 @@
+{
+  "name": "bitedit",
+  "version": "1.0.0",
+  "description": "A web-based editor for viewing, modifying, and patching MonetizationVars files for BitLife.",
+  "main": "BitEdit/index.html",
+  "scripts": {
+    "build:css": "tailwindcss -i ./BitEdit/input.css -o ./BitEdit/output.css --minify",
+    "watch:css": "tailwindcss -i ./BitEdit/input.css -o ./BitEdit/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S0methingSomething/BitEdit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S0methingSomething/BitEdit/issues"
+  },
+  "homepage": "https://github.com/S0methingSomething/BitEdit#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.1.8"
+  }
+}
